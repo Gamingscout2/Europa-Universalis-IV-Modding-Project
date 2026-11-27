@@ -14,7 +14,8 @@ is_city = yes
 fort_15th = yes
 add_core = GRE
 add_core = EPI
-add_core = ATH
+add_core = MAC
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

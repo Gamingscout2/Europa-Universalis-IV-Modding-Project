@@ -12,8 +12,8 @@ base_production = 2
 base_manpower = 2
 is_city = yes
 add_core = GRE
-add_core = EPI
-add_core = ATH
+add_core = MAC
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

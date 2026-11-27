@@ -2,7 +2,7 @@
 
 owner = FTZ
 controller = FTZ
-#add_core = FTZ
+add_core = FTZ
 culture = pommeranian
 religion = catholic
 hre = no
@@ -12,6 +12,7 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Landsberg"
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
