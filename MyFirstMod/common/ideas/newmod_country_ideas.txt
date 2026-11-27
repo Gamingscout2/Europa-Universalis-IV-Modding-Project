@@ -1,0 +1,45 @@
+#northymbria ideas
+YRK_ideas = {
+	start = {
+		naval_morale = 0.1
+		diplomatic_upkeep = 1
+	}
+
+	bonus = {
+		naval_forcelimit_modifier = 0.2
+	}
+
+	trigger = {
+		tag = YRK
+	}
+	free = yes
+
+	yrk_merchants_of_the_north = {
+		trade_efficiency = 0.1
+	}
+
+	yrk_new_northymbria = {
+		range = 0.5
+		global_colonial_growth = 10
+	}
+
+	yrk_court_of_culture = {
+		advisor_cost = -0.15
+	}
+
+	yrk_metal_trade = {
+		production_efficiency = 0.05
+	}
+
+	yrk_heavy_ships = {
+		heavy_ship_power = 0.1
+	}
+
+	yrk_redcoats_or_whatever = {
+		land_morale = 0.15
+	}
+
+	yrk_brittanic_acadamies = {
+		technology_cost = -0.05
+	}
+}
