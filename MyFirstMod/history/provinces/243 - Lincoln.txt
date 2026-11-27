@@ -2,7 +2,7 @@
 
 owner = YRK
 controller = YRK
-culture = english
+culture = northymbrian
 religion = catholic
 hre = no
 base_tax = 3

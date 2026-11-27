@@ -10,3 +10,27 @@ union = {
 	start_date = 1444.1.1
 	end_date = 1483.1.1
 }
+vassal = {
+	first = OCC
+	second = CAT
+	start_date = 1403.3.2
+	end_date = 1821.1.1
+}
+vassal = {
+	first = OCC
+	second = GUY
+	start_date = 1403.3.2
+	end_date = 1821.1.1
+}
+vassal = {
+	first = OCC
+	second = NAV
+	start_date = 1403.3.2
+	end_date = 1821.1.1
+}
+vassal = {
+	first = OCC
+	second = MJO
+	start_date = 1403.3.2
+	end_date = 1821.1.1
+}

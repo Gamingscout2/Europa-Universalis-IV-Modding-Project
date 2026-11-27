@@ -44,9 +44,6 @@ country_event = {
 		add_historical_friend = WLS
 		remove_historical_friend = MRC
 		add_historical_rival = MRC
-		FROM MRC = {
-			add_historical_rival = YRK
-		}
 		define_consort = {
 			name = "Alisander"
 			dynasty = "Drake"

@@ -3,7 +3,7 @@
 
 owner = EAN
 controller = EAN
-culture = english
+culture = anglic
 religion = catholic
 hre = no
 base_tax = 4

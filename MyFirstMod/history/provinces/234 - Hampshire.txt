@@ -2,7 +2,7 @@
 
 owner = WSX
 controller = WSX
-culture = english
+culture = anglic
 religion = catholic
 hre = no
 base_tax = 3

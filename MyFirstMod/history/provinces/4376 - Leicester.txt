@@ -3,7 +3,7 @@
 
 owner = MRC
 controller = MRC
-culture = english
+culture = anglic
 religion = catholic
 hre = no
 base_tax = 2
