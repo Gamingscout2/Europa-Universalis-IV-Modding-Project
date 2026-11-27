@@ -1,262 +1,102 @@
-government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 1
-primary_culture = pommeranian
-religion = catholic
-technology_group = western
-capital = 2994	# Wolgast
+#Country Name: Please see filename.
 
+graphical_culture = westerngfx
 
-1394.1.1 = {
-	monarch = {
-		name = "Flori V"
-		dynasty = "Palitzsch"
-		birth_date = 1360.1.1
-		adm = 2
-		dip = 4
-		mil = 3
-	}
+color = { 235  178  18 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
 }
 
-1430.1.1 = {
-	heir = {
-		name = "Pascal"
-		monarch_name = "Pascal I"
-		dynasty = "Palitzsch"
-		birth_date = 1430.1.1
-		claim = 95
-		adm = 3
-		dip = 4
-		mil = 4
-	}
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
 }
 
-1448.9.22 = {
-	monarch = {
-		name = "Pascal I"
-		dynasty = "Palitzsch"
-		birth_date = 1430.1.1
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = lawgiver_personality
-	add_ruler_personality = benevolent_personality
-	add_ruler_personality = scholar_personality
+monarch_names = {
+	"Boguslaw #9" = 100
+	"Barnim #10" = 20
+	"Ota #3" = 20
+	"Eryk #1" = 20
+	"Filip #1" = 20
+	"Franciszek #0" = 20
+	"Jan Fryderyk #0" = 20
+	"Wratislaw #5" = 20
+	"Georg #0" = 15
+	"Ulrich #0" = 15
+	"Kazimierz #5" = 10
+	"Ernest Ludwik #0" = 10
+	"Jan Ernest #0" = 10
+	"Albrecht #0" = 0
+	"Arnt #0" = 0
+	"August #0" = 0
+	"Bernhard #0" = 0
+	"Bodo #0" = 0
+	"Carl #0" = 0
+	"Emil #0" = 0
+	"Ernest #0" = 0
+	"Fritz #0" = 0
+	"Fryderyk #0" = 0
+	"Gerhard #0" = 0
+	"Gustav #0" = 0
+	"Harald #0" = 0
+	"Hendryk #0" = 0
+	"Herbert #0" = 0
+	"Hermann #0" = 0
+	"Jan #0" = 0
+	"Janusz #0" = 0
+	"Jochem #0" = 0
+	"Martin #0" = 0
+	"Maximiliam #0" = 0
+	"Paul #0" = 0
+	"Reinhold #0" = 0
+	"Richard #0" = 0
+	"Siegfried #0" = 0
+	"Walter #0" = 0
+	"Wilhelm #0" = 0
+	"Valentin #0" = 0
+	
+	"Gabriela #0" = -1
+	"Helena #0" = -1
+	"Janina #0" = -1
+	"Elisabeth #0" = -1
+	"Magdalena #0" = -1
+	"Sophia #0" = -1
 }
 
-1394.1.1 = {
-	queen = {
-		country_of_origin = LAU
-		name = "Clara"
-		dynasty = "Meyr"
-		birth_date = 1335.9.22
-		female = yes
-		adm = 2
-		dip = 5
-		mil = 2
-	}
+leader_names = {
+	"von Krockows" "von Lettows" "von Peglows"
+	"von Neustreliz" "von Prenzlau" "von Strelows"
+	"von Zitzewitzes" "von Szczecin" Witt Behm
+	Beyse Kurzmann J rgens Stellmacher Heidmann
+	Grosch Krumtum Miercke R hl Wessel Meuseling
+	"von Wolin" "von Wolgatz"
+	"von Wolgast" "von Cammin" "von Stettin" "von Neustettin" "von Neubrandenburg" "von R gen" "von Stolp" "von Kolberg" "von Greifswald" "von Stralsund" "von und zu Stargard"
+	"von Schwerin" "von Eickstedt" "von Ramin" "Normann" "von Borcke"
 }
 
-1455.1.1 = {
-	heir = {
-		name = "Saskia"
-		monarch_name = "Saskia II"
-		dynasty = "Palitzsch"
-		birth_date = 1449.1.1
-        female = yes
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-
-1478.11.11 = {
-	monarch = {
-		name = "Saskia II"
-		dynasty = "Palitzsch"
-		birth_date = 1449.1.1
-        female = yes
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-	heir = {
-		name = "Ralf"
-		monarch_name = "Ralf XII"
-		dynasty = "Palitzsch"
-		birth_date = 1477.6.3
-		claim = 95
-		adm = 4
-		dip = 3
-		mil = 5
-	}
-}
-
-#united with Pommern for a while
-
-#These below should be checked
-
-1523.10.6 = {
-	monarch = {
-		name = "Barnim XI"
-		dynasty = "Gryf"
-		birth_date = 1501.12.2
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-
-1534.1.1 = { religion = protestant }
-
-1542.8.27 = {
-	heir = {
-		name = "Johann Friedrich"
-		monarch_name = "Johann Friedrich"
-		dynasty = "Gryf"
-		birth_date = 1542.8.27
-		death_date = 1600.2.9
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 0
-	}
-}
-
-1569.1.1 = {
-	monarch = {
-		name = "Johann Friedrich"
-		dynasty = "Gryf"
-		birth_date = 1542.8.27
-		adm = 2
-		dip = 2
-		mil = 0
-	}
-}
-
-1569.1.1 = {
-	heir = {
-		name = "Barnim"
-		monarch_name = "Barnim XII"
-		dynasty = "Gryf"
-		birth_date = 1549.2.15
-		death_date = 1603.9.1
-		claim = 95
-		adm = 1
-		dip = 2
-		mil = 2
-	}
-}
-
-1600.1.1 = {
-	monarch = {
-		name = "Barnim XII"
-		dynasty = "Gryf"
-		birth_date = 1549.2.15
-		adm = 1
-		dip = 2
-		mil = 2
-	}
-}
-
-1600.1.1 = {
-	heir = {
-		name = "Boguslaw"
-		monarch_name = "Boguslaw XIII"
-		dynasty = "Gryf"
-		birth_date = 1544.8.9
-		death_date = 1606.3.7
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 1
-	}
-}
-
-1603.11.2 = {
-	monarch = {
-		name = "Boguslaw XIII"
-		dynasty = "Gryf"
-		birth_date = 1544.8.9
-		adm = 2
-		dip = 2
-		mil = 1
-	}
-}
-
-1603.11.2 = {
-	heir = {
-		name = "Filip"
-		monarch_name = "Filip II"
-		dynasty = "Gryf"
-		birth_date = 1573.7.29
-		death_date = 1618.2.3
-		claim = 95
-		adm = 3
-		dip = 3
-		mil = 1
-	}
-}
-
-1606.3.8 = {
-	monarch = {
-		name = "Filip II"
-		dynasty = "Gryf"
-		birth_date = 1573.7.29
-		adm = 3
-		dip = 3
-		mil = 1
-	}
-}
-
-1606.3.8 = {
-	heir = {
-		name = "Franciszek"
-		monarch_name = "Franciszek I"
-		dynasty = "Gryf"
-		birth_date = 1577.3.24
-		death_date = 1620.11.27
-		claim = 95
-		adm = 1
-		dip = 1
-		mil = 1
-	}
-}
-
-1618.2.3 = {
-	monarch = {
-		name = "Franciszek I"
-		dynasty = "Gryf"
-		birth_date = 1577.3.24
-		adm = 1
-		dip = 1
-		mil = 1
-	}
-}
-
-1618.2.3 = {
-	heir = {
-		name = "Boguslaw"
-		monarch_name = "Boguslaw XIV"
-		dynasty = "Gryf"
-		birth_date = 1580.3.31
-		death_date = 1637.3.10
-		claim = 95
-		adm = 3
-		dip = 1
-		mil = 0
-	}
-}
-
-1620.11.28 = {
-	monarch = {
-		name = "Boguslaw XIV"
-		dynasty = "Gryf"
-		birth_date = 1580.3.31
-		adm = 3
-		dip = 1
-		mil = 0
-	}
+ship_names = {
+	Pommern "Herzog Kasimir" "Herzog Bogislaw"
+	"Stettin Herzog Barnim" Wismar Rostock
+	Stralsund Greifswald Demmin Anklam "Herzog Otto"
+	Wolgast Cammin Neustettin "Fr ulein von R gen"
 }
