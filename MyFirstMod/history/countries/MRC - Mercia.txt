@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = english
+religion = catholic
+capital = 4372 #Coventry
+historical_friend = YRK
+
+1444.1.1 = {
+    monarch = {
+        name = "Albrecht"
+        dynasty = "Warwick"
+        adm = 3
+        dip = 5
+        mil = 2
+        birth_date = 1422.1.1
+    }
+}

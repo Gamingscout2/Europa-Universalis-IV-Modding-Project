@@ -1,0 +1,12 @@
+union = {
+	first = NRM
+	second = ESS
+	start_date = 1444.1.1
+	end_date = 1483.1.1
+}
+union = {
+	first = NRM
+	second = WSX
+	start_date = 1444.1.1
+	end_date = 1483.1.1
+}

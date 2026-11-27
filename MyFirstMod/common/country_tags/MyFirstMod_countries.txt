@@ -1,0 +1,6 @@
+YRK = "countries/Northymbria.txt"
+MRC = "countries/Mercia.txt"
+ESS = "countries/Essex.txt"
+EAN = "countries/East_Anglia.txt"
+ABR = "countries/Aberdeen.txt"
+WSX = "countries/Wessex.txt"

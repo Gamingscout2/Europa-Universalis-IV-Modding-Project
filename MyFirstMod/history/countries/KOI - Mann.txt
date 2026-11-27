@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = highland_scottish
+religion = catholic
+technology_group = western
+capital = 4365 # Mann
+
+1444.1.1 = {
+	monarch = {
+		name = Ivar #4
+		dynasty = Yngling
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

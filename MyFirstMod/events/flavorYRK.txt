@@ -1,0 +1,61 @@
+namespace = northymbria_events
+country_event = {
+	id = northymbria_events.1
+	title = northymbria_events.1.t
+	desc = northymbria_events.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	trigger = {
+		tag = YRK
+		has_ruler = "Imogen"
+	}
+
+	mean_time_to_happen = {
+		days = 100
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = northymbria_events.1.a
+		ai_chance = {
+			factor = 100
+		}
+		create_union = MRC
+		define_consort = {
+        	name = "Albrecht"
+        	dynasty = "Warwick"
+        	adm = 3
+        	dip = 5
+        	mil = 2
+        	birth_date = 1422.1.1
+		}
+	}
+	option = {
+		name = northymbria_events.1.b
+		add_country_modifier = {
+			name = welsh_marriage_modifier
+			duration = 3650
+		}
+		create_union = WLS
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		add_historical_friend = WLS
+		remove_historical_friend = MRC
+		add_historical_rival = MRC
+		FROM MRC = {
+			add_historical_rival = YRK
+		}
+		define_consort = {
+			name = "Alisander"
+			dynasty = "Drake"
+			culture = welsh
+			religion = catholic
+			adm = 6
+			dip = 5
+			mil = 3
+			birth_date = 1423.1.1
+		}
+	}
+}
