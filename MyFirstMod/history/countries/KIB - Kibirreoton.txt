@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = turkish
+religion = orthodox
+technology_group = ottoman
+capital = 2298 # Teke
+
+1444.1.1 = {
+	monarch = {
+		name = Iskander
+		dynasty = Mentesoglou
+		adm = 1
+		dip = 5
+		mil = 2
+	}
+}
